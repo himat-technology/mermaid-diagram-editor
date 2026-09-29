@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Mermaid Diagram Editor by HIMAT Technology</title>
+  <desc id="desc">Write Mermaid code, see live diagrams, export anywhere. 100% in your browser.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="0.45" stop-color="#9333ea"/>
+      <stop offset="0.75" stop-color="#db2777"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#ffffff" fill-opacity="0.85"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1090" cy="40" r="120" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="90" cy="300" r="140" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="1010" cy="300" r="60" fill="#ffffff" fill-opacity="0.08"/>
+
+  <g font-family="'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="600" y="112" text-anchor="middle" font-size="58" font-weight="800" letter-spacing="-1">Mermaid Diagram Editor</text>
+    <text x="600" y="156" text-anchor="middle" font-size="22" font-weight="500" fill-opacity="0.92">Write Mermaid code &#183; See live diagrams &#183; Export anywhere &#183; 100% in your browser</text>
+  </g>
+
+  <g font-family="'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff" text-anchor="middle">
+    <rect x="215" y="206" width="150" height="54" rx="12" fill="url(#node)" stroke="#ffffff" stroke-opacity="0.6"/>
+    <text x="290" y="239">User</text>
+    <rect x="425" y="206" width="170" height="54" rx="12" fill="url(#node)" stroke="#ffffff" stroke-opacity="0.6"/>
+    <text x="510" y="239">HiMat Website</text>
+    <rect x="655" y="206" width="150" height="54" rx="12" fill="url(#node)" stroke="#ffffff" stroke-opacity="0.6"/>
+    <text x="730" y="239">Free Tool</text>
+    <rect x="865" y="206" width="130" height="54" rx="27" fill="#ffffff" fill-opacity="0.95"/>
+    <text x="930" y="239" fill="#9333ea">Result</text>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.85" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="367" y1="233" x2="421" y2="233"/>
+    <line x1="597" y1="233" x2="651" y2="233"/>
+    <line x1="807" y1="233" x2="861" y2="233"/>
+  </g>
+
+  <text x="600" y="298" text-anchor="middle" font-family="'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#ffffff" fill-opacity="0.8" letter-spacing="3">BY HIMAT TECHNOLOGY</text>
+</svg>
